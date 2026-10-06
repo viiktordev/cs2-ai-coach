@@ -1,0 +1,118 @@
+{
+  "confirmation_frames": 3,
+  "bomb_template": "templates/bomb-planted.png",
+  "side_templates": {
+    "T": "templates/T.png",
+    "CT": "templates/CT.png"
+  },
+  "regions": [
+    {
+      "name": "health",
+      "rect": [
+        0.2890625,
+        0.9354166667,
+        0.05,
+        0.0322916667
+      ],
+      "pattern": "[0-9]{1,3}",
+      "minimum": 0,
+      "maximum": 100
+    },
+    {
+      "name": "ammo",
+      "rect": [
+        0.66796875,
+        0.9375,
+        0.03359375,
+        0.03125
+      ],
+      "pattern": "[0-9]{1,3}",
+      "minimum": 0,
+      "maximum": 200
+    },
+    {
+      "name": "round_timer",
+      "rect": [
+        0.48125,
+        0.0052083333,
+        0.0375,
+        0.0260416667
+      ],
+      "pattern": "[0-9]{1,2}:[0-5][0-9]"
+    },
+    {
+      "name": "armor",
+      "rect": [
+        0.26484375,
+        0.95,
+        0.0203125,
+        0.015625
+      ],
+      "pattern": "[0-9]{1,3}",
+      "minimum": 0,
+      "maximum": 100
+    },
+    {
+      "name": "ct_score",
+      "rect": [
+        0.4765625,
+        0.040625,
+        0.0203125,
+        0.022916666666666665
+      ],
+      "pattern": "[0-9]{1,2}",
+      "minimum": 0,
+      "maximum": 99,
+      "zero_fallback": true,
+      "foreground": "bright_text",
+      "padding": 12,
+      "scale": 5
+    },
+    {
+      "name": "t_score",
+      "rect": [
+        0.50390625,
+        0.040625,
+        0.021875,
+        0.022916666666666665
+      ],
+      "pattern": "[0-9]{1,2}",
+      "minimum": 0,
+      "maximum": 99,
+      "zero_fallback": true,
+      "foreground": "bright_text",
+      "padding": 12,
+      "scale": 5
+    },
+    {
+      "name": "ct_alive",
+      "rect": [
+        0.48515625,
+        0.06875,
+        0.009375,
+        0.0177083333
+      ],
+      "pattern": "[0-9]",
+      "minimum": 0,
+      "maximum": 5,
+      "zero_fallback": true,
+      "scale": 5,
+      "padding": 12
+    },
+    {
+      "name": "t_alive",
+      "rect": [
+        0.515625,
+        0.06875,
+        0.009375,
+        0.0177083333
+      ],
+      "pattern": "[0-9]",
+      "minimum": 0,
+      "maximum": 5,
+      "zero_fallback": true,
+      "scale": 5,
+      "padding": 12
+    }
+  ]
+}

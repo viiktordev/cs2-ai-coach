@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.egg-info/
+events*.jsonl
+coaching*.jsonl
+*.log
+.env
+.env.*
+!.env.example
+recordings/
+debug/
+killfeed-samples/
